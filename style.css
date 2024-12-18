@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+#menu {
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    overflow-y: auto;
+    height: 100vh;
+}
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+#menu li {
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    background-color: #ddd;
+}
+#menu li:hover {
+    background-color: #ccc;
+}
+#details {
+    flex: 1;
+    padding: 20px;
+}
+#details img {
+    max-width: 300px;
+    height: auto;
+}
+.hidden {
+    display: none;
+}
